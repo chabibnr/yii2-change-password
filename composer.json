@@ -1,0 +1,21 @@
+{
+    "name": "chabibnr/yii2-change-password",
+    "description": "Simple change password system",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chabib Nurozak",
+            "email": "chabibdev@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "chabibnr\\changePassword\\": ""
+        }
+    }
+}
