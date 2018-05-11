@@ -9,8 +9,8 @@ use yii\web\IdentityInterface;
 
 class ChangePasswordForm extends Model {
 
-    const SCENARIO_WITH_PASSWORD = 'SCHENARION_WP';
-    const SCENARIO_WITHOUT_PASSWORD = 'SCHENARION_WTP';
+    const SCENARIO_WITH_PASSWORD = 'WP';
+    const SCENARIO_WITHOUT_PASSWORD = 'WTP';
 
     public $user;
     public $old_password;
